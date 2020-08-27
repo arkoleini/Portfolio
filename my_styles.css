@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+
+
+/*
+My Portfolio Style
+
+*/
+
+
+/* Structural Styles */
+
+html { 
+	background-color: white;
+ }
+
+body {
+	background-color: hsl(58, 31%, 84%);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header {
+	background-color: rgb(206, 184, 84);
+}
+
+p {
+	margin: 0px;
+	padding: 5px 25px 25px 25px;
+}
+
+body > p {
+	font-size: 1.1em;
+	text-align: center;
+}
+img {
+    margin-bottom: 4em;
+  }
+
+
+/* Footer Style */
+address {
+	font: normal 1em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* Navigation Styles */
+
+body > header > nav {
+	-webkit-flex: 1 1 441px;
+	flex: 1 1 441px;
+ }
+ 
+ body > header > nav > ul {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+ }
+ 
+ body > header > nav > ul li {
+	-webkit-flex: 0 1 auto;
+	flex: 0 1 auto;
+ }
+ 
+ body > header > nav > ul > li {
+	font-size: 1.2em; 
+	line-height: 2.3em; 
+	height: 2.3em;
+	padding: 0px 25px;
+ }
+ 
+ body > header > nav > ul > li > a {
+	
+	display: block;
+	width: 100%;
+ }
+ 
+
+/* Section Styles */
+
+section.secbin h1 {
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 20px 0px 10px 20px;
+}
+
+
+#sec1 {
+	background-color: rgb(255, 144, 111);
+}
+
+#sec2 {
+	background-color: rgb(1, 197, 87);
+}
+
+#sec3 {
+	background-color: rgb(255, 134, 11);
+}
+
+#sec4 {
+	background-color: rgb(73, 144, 226);
+}
+
+
+#sec1 > h1 {
+		font-family: Champagne, cursive;		
+}
+
+#sec2 > h1 {
+		font-family: Grunge, Times New Roman, Times, serif;	
+}
+
+#sec3 > h1 {
+		font-family: Impact, Charcoal, sans-serif;		
+}
+
+
+#sec4 > h1 {
+		font-family: Dobkin, cursive;	
+}
+
+
+/* Description List Styles */
+
+
+   /*services*/
+
+   #myDesign{
+	box-shadow: 5px 5px 8px 5px #00000063;
+  }
+  
+  #myDesign:hover{
+	background: rgb(206, 184, 84);
+	box-shadow: 5px 5px 8px 5px #00000063;
+   transition: 3.5s ease-in-out;
+   transform: rotate(360deg);  
+  }
+  #myCode{
+	box-shadow: 5px 5px 8px 5px #00000063;
+  }
+  
+  #myCode:hover{
+	background: rgb(50, 121, 239);
+	box-shadow: 5px 5px 8px 5px #00000063;
+	transition: 3.5s ease-in-out;
+	transform: rotate(360deg);  
+  }
+
+#myData{
+	box-shadow: 5px 5px 8px 5px #00000063;
+  }
+  
+  #myData:hover{
+	background: rgb(73, 235, 126);
+	box-shadow: 5px 5px 8px 5px #00000063;
+	transition: 3.5s ease-in-out;
+	transform: rotate(360deg);  
+  }
+  
+  
+
+  
